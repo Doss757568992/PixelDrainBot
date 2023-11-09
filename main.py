@@ -15,8 +15,7 @@ Bot = Client(
 @Bot.on_message(filters.private & filters.command("start"))
 async def start(bot, update):
     await update.reply_text(
-        text=f"Hello {update.from_user.mention}, Iam a Simple Telegram File/video to Permanent Link and Stream Link Generator Bot.
-Send Me Any Video / File to See My Power.\n\nMade by @Tamil247Entertainments",
+        text=f"Hello {update.from_user.mention}, Iam a Simple Telegram File/video to Permanent Link and Stream Link Generator Bot Send Me Any Video / File to See My Power.\n\nMade by @Tamil247Entertainments",
         disable_web_page_preview=True,
         quote=True
     )
